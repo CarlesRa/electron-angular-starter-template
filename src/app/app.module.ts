@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NavbarToolbarComponent } from './components/navbar-sidenav/navbar-toolbar.component';
+import { NavbarSidenavComponent } from './components/navbar-sidenav/navbar-sidenav.component';
 
 // Material
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -15,7 +15,7 @@ import {MatListModule} from '@angular/material/list';
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarToolbarComponent
+    NavbarSidenavComponent
   ],
   imports: [
     BrowserModule,
