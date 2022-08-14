@@ -1,4 +1,4 @@
-# GitManagmentGui
+# Electron Angular Starter Template
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
 
@@ -10,9 +10,14 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Start Electron Window
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `npm run electron` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+
+## Make Electron executable
+
+Run `npm run make` for create executable file
 
 ## Running unit tests
 
