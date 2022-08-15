@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Title} from '@angular/platform-browser';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -12,7 +12,6 @@ export class HomeComponent implements OnInit {
   constructor(
     private title: Title
   ) {
-    console.log('Home component constructor');
     title.setTitle(this.appTitle);
   }
 
